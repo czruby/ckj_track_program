@@ -14,12 +14,13 @@
                 <p>事件地点：{{ item.address }}</p>
                 <p>事件描述：{{ item.detail }}</p>
                 <el-carousel height="auto" type="card" :autoplay="false" trigger="click"
-                    v-if="item.imgList || item.videoList">
+                    v-if="item.imgList || item.videoList" indicator-position="outside">
                     <el-carousel-item v-for="(img, index) in item.imgList" :key="img" style="height: max-content;"
                         v-if="item.imgList">
                         <el-image :src="img" :zoom-rate="1.5" :max-scale="7" :min-scale="0.2"
                             :preview-src-list="item.imgList" :initial-index="index" fit="cover" preview-teleported
                             hide-on-click-modal />
+                        <div>{{ getImgName(img) }}</div>
                     </el-carousel-item>
                     <el-carousel-item v-for="video in item.videoList" :key="video" style="height: max-content;"
                         v-if="item.videoList">
@@ -36,6 +37,11 @@ import { ref } from 'vue'
 import { useParamsStore } from '@/store/params'
 import { storeToRefs } from 'pinia'
 const paramsStore = useParamsStore()
+
+function getImgName(img: string) {
+    let match = img.match(/\/([^\/]+)\.png$/);
+    return match ? match[1] : null;
+}
 //初始化数据
 const { params, pointInfoList } = storeToRefs(paramsStore) as any
 let id = ref(params.value.data.id)
