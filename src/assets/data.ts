@@ -101,7 +101,7 @@ export default function () {
             mapToPointData: 6,
             time: "1937-1941",
             detail: "有一次，一个同学和他打赌，他要是一天一夜不闭睡觉一直看书，他就替我出晚上的灯油费，程开甲年轻气盛，加上机不可失，接受了他的赌约，向老师借来基本量子力学的书，看，计算了一整天，赌局之后，就有了程BOOK这个称号",
-            imgList: ["与同学的赌约，获得程BOOK的称号.png"]
+            imgList: ["https://img.czruby.eu.org/imgs/ckj/img/与同学的赌约，获得程BOOK的称号.png"]
         },
         {
             id: nanoid(),
@@ -429,7 +429,7 @@ export default function () {
             mapToPointData: 3,
             time: "1966年",
             detail: "1966年，程开甲代领核试验技术研究所从北京通县搬迁到这里。程开甲先生提出将核武器的研制和试验紧密结合，不同于国外将二者彼此分离，同时建立起了一整套核试验技术体系，这也成为一个具有中国特色的关键性创新。\n",
-            videoList: ["https://img.czruby.eu.org/imgs/ckj/img/参考视频3.mp4"]
+            videoList: ["https://img.czruby.eu.org/imgs/ckj/video/参考视频3.mp4"]
         },
         {
             id: nanoid(),
@@ -459,7 +459,7 @@ export default function () {
             time: "1967年",
             detail: "1967年6月17日8时20分，我国第一颗氢弹空投试验成功，居住在新疆乌鲁木齐、哈密、吐鲁番、库尔勒等地的人们看到了天上有“两个太阳”。在首次氢弹空投试验中，程开甲付出了尤其多的心血和智慧，例如固体火箭取样和投弹飞机改为顺风飞行这两项创新，也在后来的历次氢弹空爆试验中所沿用。",
             imgList: ["https://img.czruby.eu.org/imgs/ckj/img/第一颗氢弹爆炸.jpeg", "https://img.czruby.eu.org/imgs/ckj/img/两个太阳.jpeg"],
-            videoList: ["https://img.czruby.eu.org/imgs/ckj/img/参考视频6.mp4"]
+            videoList: ["https://img.czruby.eu.org/imgs/ckj/video/参考视频6.mp4"]
         },
         {
             id: nanoid(),

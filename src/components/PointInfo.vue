@@ -39,7 +39,7 @@ import { storeToRefs } from 'pinia'
 const paramsStore = useParamsStore()
 
 function getImgName(img: string) {
-    let match = img.match(/\/([^\/]+)\.png$/);
+    let match = img.match(/\/([^\/]+)\.(png|jpg|jpeg)$/);
     return match ? match[1] : null;
 }
 //初始化数据
