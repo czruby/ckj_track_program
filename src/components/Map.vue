@@ -93,7 +93,11 @@ onMounted(async () => {
                 coordinateSystem: 'bmap',
                 data: convertData(pointData),
                 symbolSize: function (val: any) {
-                    return val[2] * 2;
+                    if (val[2] < 10) {
+                        return 10;
+                    } else {
+                        return val[2] * 1.5;
+                    }
                 },
                 encode: {
                     value: 2
