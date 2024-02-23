@@ -644,6 +644,8 @@ export default function () {
         { fromName: '贵州', toName: '爱丁堡大学', time: '1946年', reason: '经英国著名学者李约瑟博士推荐，程开甲获得英国文化委员会奖学金，来到爱丁堡大学，成为被称为“物理学家中的物理学家”玻恩教授的学生。' },
         { fromName: '爱丁堡大学', toName: '杭州', time: '1950年', reason: '听到解放军击败阻挠渡江战役的英国“紫石英”号军舰的消息，决定回国建设国家' },
         { fromName: '杭州', toName: '南京', time: '1952年', reason: '来南京大学任物理系教授' },
+        { fromName: '南京', toName: '莫斯科', time: '1956年', reason: '仿问莫斯科大学的著名高校和研究所原子能发电站' },
+        { fromName: '莫斯科', toName: '南京', time: '1956年', reason: '从莫斯科访问结束返回' },
         { fromName: '南京', toName: '北京', time: '1960年春末夏初', reason: '被借调参加核武器研制工作' },
         { fromName: '北京', toName: '张家口', time: '1960-1963', reason: '在河北怀来县官厅水库旁(17号工地)进行核试验' },
         { fromName: '张家口', toName: '北京', time: '1960-1963', reason: '在河北怀来县官厅水库旁(17号工地)进行核试验后返回北京继续进行理论研究' },
