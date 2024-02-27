@@ -9,6 +9,7 @@
                 <LineInfo></LineInfo>
             </div>
         </Modal>
+        <DataInfo></DataInfo>
     </div>
 </template>
 
@@ -17,6 +18,7 @@ import Map from './components/Map.vue'
 import Modal from './components/Modal.vue'
 import LineInfo from './components/LineInfo.vue';
 import PointInfo from './components/PointInfo.vue';
+import DataInfo from './components/DataInfo.vue';
 import { useParamsStore } from './store/params'
 import { ref } from 'vue'
 import data from '@/assets/data'
