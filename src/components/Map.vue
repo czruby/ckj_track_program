@@ -56,7 +56,7 @@ onMounted(async () => {
     var myChart = echarts.init(chartDom);
     var option = {
         title: {
-            text: '程开甲先生行迹图',
+            text: '程开甲行迹图',
             subtext: 'Cheng Kaijia trace map',
             sublink: '',
             left: 'center'

@@ -5,7 +5,7 @@ export default function () {
         { id: 1, name: '北京', value: 20, itemStyle: { color: 'red' } },
         { id: 2, name: '南京', value: 4, itemStyle: { color: 'yellow' } },
         { id: 3, name: '新疆马兰基地', value: 26, itemStyle: { color: 'green' } },
-        { id: 4, name: '苏州', value: 5, itemStyle: { color: 'blue' } },
+        { id: 4, name: '苏州', value: 5, itemStyle: { color: 'brown' } },
         { id: 5, name: '嘉兴', value: 3, itemStyle: { color: 'purple' } },
         { id: 6, name: '贵州', value: 5, itemStyle: { color: 'pink' } },
         { id: 7, name: '爱丁堡大学', value: 4, itemStyle: { color: 'orange' } },

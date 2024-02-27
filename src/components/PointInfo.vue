@@ -3,8 +3,6 @@
         <h1>路径点信息</h1>
         <hr>
         <p>名称：{{ name }}</p>
-        <p>经度：{{ longitude }}</p>
-        <p>纬度：{{ latitude }}</p>
         <p>路径点数量：{{ count }}</p>
         <el-collapse accordion>
             <el-collapse-item class="PointInfoDiv" v-for="item in pointInfoListById" :key="item.id" :title="item.name">
