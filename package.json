@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite", 
+    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "run-p type-check \"build-only {@}\" --",
@@ -15,7 +15,6 @@
   "dependencies": {
     "echarts": "^5.5.0",
     "element-plus": "^2.5.6",
-    "jquery": "^3.7.1",
     "nanoid": "^5.0.6",
     "pinia": "^2.1.7",
     "terser": "^5.27.2",
