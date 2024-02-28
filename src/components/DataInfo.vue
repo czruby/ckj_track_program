@@ -1,7 +1,7 @@
 <template>
     <div id="dataInfo">
         <div id="dataInfoContainer">
-            <p>作者:南京大学马兰花开社会实践项目组</p>
+            <p>作者:南京大学马兰花开社会实践团队</p>
             <div>
                 <p>数据来源:
                 <ul>
