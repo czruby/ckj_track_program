@@ -3,14 +3,14 @@ import { nanoid } from 'nanoid';
 export default function () {
     const pointData: DataItem[] = [
         { id: 1, name: '北京', value: 20, itemStyle: { color: 'red' } },
-        { id: 2, name: '南京', value: 4, itemStyle: { color: 'yellow' } },
-        { id: 3, name: '新疆马兰基地', value: 26, itemStyle: { color: 'green' } },
-        { id: 4, name: '苏州', value: 5, itemStyle: { color: 'brown' } },
-        { id: 5, name: '嘉兴', value: 3, itemStyle: { color: 'purple' } },
-        { id: 6, name: '贵州', value: 5, itemStyle: { color: 'pink' } },
+        { id: 2, name: '南京', value: 4, itemStyle: { color: 'orange' } },
+        { id: 3, name: '新疆马兰基地', value: 26, itemStyle: { color: 'orange' } },
+        { id: 4, name: '苏州', value: 5, itemStyle: { color: 'orange' } },
+        { id: 5, name: '嘉兴', value: 3, itemStyle: { color: 'orange' } },
+        { id: 6, name: '贵州', value: 5, itemStyle: { color: 'orange' } },
         { id: 7, name: '爱丁堡大学', value: 4, itemStyle: { color: 'orange' } },
-        { id: 8, name: '杭州', value: 1, itemStyle: { color: 'cyan' } },
-        { id: 9, name: '莫斯科', value: 1, itemStyle: { color: 'black' } },
+        { id: 8, name: '杭州', value: 1, itemStyle: { color: 'orange' } },
+        { id: 9, name: '莫斯科', value: 1, itemStyle: { color: 'orange' } },
     ];
     const pointInfoList: PointInfoItem[] = [
 

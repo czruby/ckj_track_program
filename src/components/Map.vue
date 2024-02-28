@@ -57,7 +57,7 @@ onMounted(async () => {
     var option = {
         title: {
             text: '程开甲行迹图',
-            subtext: 'Cheng Kaijia trace map',
+            subtext: 'Cheng Kaijia Trace Map',
             sublink: '',
             left: 'center'
         },
@@ -96,7 +96,7 @@ onMounted(async () => {
                     if (val[2] < 10) {
                         return 10;
                     } else {
-                        return val[2] * 1.5;
+                        return val[2] * 0.9;
                     }
                 },
                 encode: {
@@ -145,8 +145,8 @@ onMounted(async () => {
                 coordinateSystem: 'bmap',
                 lineStyle: {
                     normal: {
-                        color: 'blue',
-                        width: 8,
+                        color: 'red',
+                        width: 5,
                         opacity: 0.6,
                         curveness: 0.2
                     }
